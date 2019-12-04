@@ -25,6 +25,7 @@ const Preload = ({name, navigation}) => {
   //     }),
   //   );
   // }
+
   return null;
 };
 

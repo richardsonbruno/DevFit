@@ -41,7 +41,7 @@ const StarterName = ({name, navigation, setName}) => {
 
   const handlerTextName = newName => {
     setName(newName);
-    navigation.navigate.setParams({name: newName});
+    navigation.setParams({name: newName});
   };
 
   return (
